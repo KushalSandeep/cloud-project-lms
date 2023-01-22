@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/cloud-project-lms/static/css/main.91beb97a.css",
-    "main.js": "/cloud-project-lms/static/js/main.d85aac94.js",
+    "main.css": "/cloud-project-lms/static/css/main.2b5bf145.css",
+    "main.js": "/cloud-project-lms/static/js/main.5e32de36.js",
     "static/js/787.129942d8.chunk.js": "/cloud-project-lms/static/js/787.129942d8.chunk.js",
+    "static/media/add3.png": "/cloud-project-lms/static/media/add3.0e08868a6f5898f9fe44.png",
+    "static/media/add1.png": "/cloud-project-lms/static/media/add1.3e707b3db68ea6d894a8.png",
+    "static/media/add2.png": "/cloud-project-lms/static/media/add2.815d10b8695b8b024d8f.png",
     "static/media/imgrbc.png": "/cloud-project-lms/static/media/imgrbc.7140dc8be6bf9488e273.png",
     "static/media/logo.png": "/cloud-project-lms/static/media/logo.7eac318b8eecd79af83f.png",
     "static/media/logo2.png": "/cloud-project-lms/static/media/logo2.44d69ccc8a418d546161.png",
     "static/media/dul.jpg": "/cloud-project-lms/static/media/dul.bb79c1567b01073d1b9c.jpg",
     "index.html": "/cloud-project-lms/index.html",
-    "main.91beb97a.css.map": "/cloud-project-lms/static/css/main.91beb97a.css.map",
-    "main.d85aac94.js.map": "/cloud-project-lms/static/js/main.d85aac94.js.map",
+    "main.2b5bf145.css.map": "/cloud-project-lms/static/css/main.2b5bf145.css.map",
+    "main.5e32de36.js.map": "/cloud-project-lms/static/js/main.5e32de36.js.map",
     "787.129942d8.chunk.js.map": "/cloud-project-lms/static/js/787.129942d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91beb97a.css",
-    "static/js/main.d85aac94.js"
+    "static/css/main.2b5bf145.css",
+    "static/js/main.5e32de36.js"
   ]
 }
