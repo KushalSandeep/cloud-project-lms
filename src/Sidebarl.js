@@ -4,6 +4,12 @@ import logo from "./logo.png";
 import dul from "./images/dul.jpg";
 import imgrbc from "./images/imgrbc.png";
 import DashboardIcon from "@mui/icons-material/Dashboard";
+import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import TaskAltOutlinedIcon from "@mui/icons-material/TaskAltOutlined";
+import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
+import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
 
 function Sidebarl() {
   return (
@@ -15,7 +21,7 @@ function Sidebarl() {
         <div>aa</div>
       </div>
       <div class="c7">
-        <div class="conrc">
+        <div className="conrc">
           <div className="imgg">
             <img src={dul} alt="Dul" id="dul" />
             <div id="gdot">.</div>
@@ -37,7 +43,7 @@ function Sidebarl() {
               <li>
                 <div className="dtt">
                   <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
+                    <PersonOutlineOutlinedIcon fontSize="inherit" />
                   </span>
                   <span className="dt">My Profile</span>
                 </div>
@@ -45,7 +51,7 @@ function Sidebarl() {
               <li>
                 <div className="dtt">
                   <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
+                    <SendOutlinedIcon fontSize="inherit" />
                   </span>
                   <span className="dt">Messages</span>
                 </div>
@@ -53,7 +59,7 @@ function Sidebarl() {
               <li>
                 <div className="dtt">
                   <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
+                    <EmailOutlinedIcon fontSize="inherit" />
                   </span>
                   <span className="dt">Mail</span>
                 </div>
@@ -61,7 +67,7 @@ function Sidebarl() {
               <li>
                 <div className="dtt">
                   <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
+                    <TaskAltOutlinedIcon fontSize="inherit" />
                   </span>
                   <span className="dt">Attendence</span>
                 </div>
@@ -69,7 +75,7 @@ function Sidebarl() {
               <li>
                 <div className="dtt">
                   <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
+                    <SettingsOutlinedIcon fontSize="inherit" />
                   </span>
                   <span className="dt">Settings</span>
                 </div>
@@ -77,7 +83,7 @@ function Sidebarl() {
               <li>
                 <div className="dtt">
                   <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
+                    <LoginOutlinedIcon fontSize="inherit" />
                   </span>
                   <span className="dt">Log out</span>
                 </div>

@@ -17,7 +17,7 @@
 
 .c5 {
   height: 18vh;
-  background-color: rgb(3, 41, 255);
+  background-color: #0085ff;
 }
 
 #logo {
@@ -59,6 +59,7 @@
 
 .dash {
   font-size: 1vw;
+  margin-bottom: -1vw;
 }
 
 #dashlist {
@@ -90,15 +91,14 @@
 #dashlist li:hover {
   background-color: aliceblue;
   cursor: pointer;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
+  height: 2vw;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
 .dt {
-  padding-left: 0.8vw;
+  padding-left: 1vw;
 }
 
 .dtt {
@@ -108,4 +108,8 @@
 }
 .ddt {
   font-size: 1.4vw;
+}
+
+.conrc {
+  padding-top: 1vw;
 }

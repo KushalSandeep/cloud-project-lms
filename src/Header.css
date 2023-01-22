@@ -1,7 +1,7 @@
 .c2 {
   width: 65vw;
   height: 103vh;
-  background-color: rgb(236, 219, 236);
+  background-color: #ebebeb;
 }
 
 .c6 {
@@ -10,7 +10,7 @@
   align-items: flex-end;
   padding-right: 1%;
   height: 9vw;
-  background-color: rgb(3, 41, 255);
+  background-color: #0085ff;
 }
 
 #ww {
@@ -35,7 +35,7 @@
   height: 200px;
   width: 200px;
   border-radius: 15px;
-  background-color: rgb(244, 110, 126);
+  background-color: #f46e7e;
 }
 
 .cc1 {
