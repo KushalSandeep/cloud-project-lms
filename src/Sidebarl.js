@@ -10,6 +10,7 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import TaskAltOutlinedIcon from "@mui/icons-material/TaskAltOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
+import { Link } from "react-router-dom";
 
 function Sidebarl() {
   return (
@@ -31,63 +32,95 @@ function Sidebarl() {
           </div>
           <div className="dash">
             <ul id="dashlist">
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <DashboardIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">Dashboard</span>
-                </div>
-                <div id="selected"></div>
-              </li>
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <PersonOutlineOutlinedIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">My Profile</span>
-                </div>
-              </li>
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <SendOutlinedIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">Messages</span>
-                </div>
-              </li>
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <EmailOutlinedIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">Mail</span>
-                </div>
-              </li>
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <TaskAltOutlinedIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">Attendence</span>
-                </div>
-              </li>
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <SettingsOutlinedIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">Settings</span>
-                </div>
-              </li>
-              <li>
-                <div className="dtt">
-                  <span className="ddt">
-                    <LoginOutlinedIcon fontSize="inherit" />
-                  </span>
-                  <span className="dt">Log out</span>
-                </div>
-              </li>
+              <Link
+                to="/dashboard"
+                style={{ textDecoration: "none", color: "#848383" }}
+              >
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <DashboardIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">Dashboard</span>
+                  </div>
+                  <div id="selected"></div>
+                </li>
+              </Link>
+              <Link
+                to="/myprofile"
+                style={{ textDecoration: "none", color: "#848383" }}
+              >
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <PersonOutlineOutlinedIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">My Profile</span>
+                  </div>
+                </li>
+              </Link>
+              <Link
+                to="/messages"
+                style={{ textDecoration: "none", color: "#848383" }}
+              >
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <SendOutlinedIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">Messages</span>
+                  </div>
+                </li>
+              </Link>
+              <Link
+                to="/mail"
+                style={{ textDecoration: "none", color: "#848383" }}
+              >
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <EmailOutlinedIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">Mail</span>
+                  </div>
+                </li>
+              </Link>
+              <Link
+                to="/attendance"
+                style={{ textDecoration: "none", color: "#848383" }}
+              >
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <TaskAltOutlinedIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">Attendence</span>
+                  </div>
+                </li>
+              </Link>
+              <Link
+                to="/settings"
+                style={{ textDecoration: "none", color: "#848383" }}
+              >
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <SettingsOutlinedIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">Settings</span>
+                  </div>
+                </li>
+              </Link>
+              <Link to="/" style={{ textDecoration: "none", color: "#848383" }}>
+                <li>
+                  <div className="dtt">
+                    <span className="ddt">
+                      <LoginOutlinedIcon fontSize="inherit" />
+                    </span>
+                    <span className="dt">Log out</span>
+                  </div>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>

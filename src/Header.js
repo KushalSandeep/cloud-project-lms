@@ -1,7 +1,13 @@
 import "./Header.css";
 import React from "react";
-import Hbox from "./Hbox";
+import Myprofile from "./Dashboard/Myprofile";
+import Dashboard from "./Dashboard/Dashboard";
+import Mail from "./Dashboard/Mail";
+import Messages from "./Dashboard/Messages";
+import Settings from "./Dashboard/Settings";
+import Attendance from "./Dashboard/Attendance";
 import logo2 from "./logo2.png";
+import { Route, Routes } from "react-router-dom";
 
 function Header() {
   return (
@@ -13,13 +19,14 @@ function Header() {
           <div id="we">SLTC RESEARCH UNIVERSITY LEARNING MANAGEMENT SYSTEM</div>
         </div>
         <div className="cc1">
-          <Hbox />
-          <Hbox />
-          <Hbox />
-          <Hbox />
-          <Hbox />
-          <Hbox />
-          <Hbox />
+          <Routes>
+            <Route path="/dashboard" element={<Dashboard />}></Route>
+            <Route path="/myprofile" element={<Myprofile />}></Route>
+            <Route path="/mail" element={<Mail />}></Route>
+            <Route path="/attendance" element={<Attendance />}></Route>
+            <Route path="/settings" element={<Settings />}></Route>
+            <Route path="/messages" element={<Messages />}></Route>
+          </Routes>
         </div>
       </div>
     </div>
