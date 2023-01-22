@@ -1,0 +1,52 @@
+.c2 {
+  width: 65vw;
+  background-color: rgb(236, 219, 236);
+}
+
+.c6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 1%;
+  height: 9vw;
+  background-color: rgb(3, 41, 255);
+}
+
+#ww {
+  padding-top: 3vh;
+  font-size: 3.5vw;
+  font-weight: 600;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+}
+#we {
+  font-size: 1.1vw;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 2px;
+  position: absolute;
+  padding-top: 5.1vw;
+}
+
+.hb1 {
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  background-color: rgb(244, 110, 126);
+}
+
+.cc1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 82vh;
+  overflow: scroll;
+}
+
+#logo2 {
+  width: 11vw;
+  padding-top: 0.2vw;
+  position: relative;
+  opacity: 0.2;
+}
