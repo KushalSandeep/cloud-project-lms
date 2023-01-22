@@ -1,15 +1,18 @@
 .c1 {
   height: 100vh;
-  width: 15vw;
+  width: 14vw;
   background-color: rgb(255, 255, 255);
 }
 
 .c7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
   border-radius: 0px 30px;
   height: 87vh;
-  width: 15vw;
+  width: 14vw;
   background-color: rgb(255, 255, 255);
 }
 
@@ -33,22 +36,26 @@
 #dul {
   margin-top: 5.5%;
   margin-left: 6%;
-  width: 6vw;
+  width: 5vw;
   margin-left: -0.6vw;
   border-radius: 100px;
   padding-bottom: 0.3vw;
 }
 
 #gdot {
-  color: rgb(28, 212, 3);
-  font-size: 10vw;
+  color: #029811;
+  font-size: 8vw;
   position: absolute;
-  left: 8vw;
-  top: -4.2vw;
+  left: 7.5vw;
+  top: -3vw;
 }
 
 .dult {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
   font-size: 0.8vw;
+  font-weight: 500;
+  color: #686868;
 }
 
 .dash {
@@ -58,11 +65,15 @@
 #dashlist {
   list-style-type: none;
   margin-top: 2vw;
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  height: 10vw;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #848383;
 }
 
 #dashlist li {
@@ -73,8 +84,8 @@
 
 #selected {
   background-color: blue;
-  height: 2vw;
-  width: 0.6vw;
+  height: 1.5vw;
+  width: 0.5vw;
 }
 
 #dashlist li:hover {
@@ -82,5 +93,7 @@
   cursor: pointer;
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
-  font-weight: 500;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 800;
 }
