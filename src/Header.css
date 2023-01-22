@@ -1,5 +1,6 @@
 .c2 {
   width: 65vw;
+  height: 103vh;
   background-color: rgb(236, 219, 236);
 }
 
@@ -40,7 +41,7 @@
 .cc1 {
   display: flex;
   flex-wrap: wrap;
-  height: 82vh;
+  height: 85vh;
   overflow: scroll;
 }
 
