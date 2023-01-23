@@ -90,7 +90,7 @@
 #dashlist li:hover {
   background-color: aliceblue;
   cursor: pointer;
-  height: 2vw;
+  transform: scale(1.1);
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
