@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cloud-project-lms/static/css/main.52886200.css",
-    "main.js": "/cloud-project-lms/static/js/main.a47b1ea9.js",
+    "main.css": "/cloud-project-lms/static/css/main.a4079871.css",
+    "main.js": "/cloud-project-lms/static/js/main.a732a11a.js",
     "static/js/787.129942d8.chunk.js": "/cloud-project-lms/static/js/787.129942d8.chunk.js",
     "static/media/banner.png": "/cloud-project-lms/static/media/banner.ed78d90007ce8e7113b1.png",
     "static/media/add3.png": "/cloud-project-lms/static/media/add3.0e08868a6f5898f9fe44.png",
@@ -21,12 +21,12 @@
     "static/media/dimg1.png": "/cloud-project-lms/static/media/dimg1.fe882b7d413c44faa567.png",
     "static/media/dimg6.png": "/cloud-project-lms/static/media/dimg6.c4100cb984c8b70dd539.png",
     "index.html": "/cloud-project-lms/index.html",
-    "main.52886200.css.map": "/cloud-project-lms/static/css/main.52886200.css.map",
-    "main.a47b1ea9.js.map": "/cloud-project-lms/static/js/main.a47b1ea9.js.map",
+    "main.a4079871.css.map": "/cloud-project-lms/static/css/main.a4079871.css.map",
+    "main.a732a11a.js.map": "/cloud-project-lms/static/js/main.a732a11a.js.map",
     "787.129942d8.chunk.js.map": "/cloud-project-lms/static/js/787.129942d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52886200.css",
-    "static/js/main.a47b1ea9.js"
+    "static/css/main.a4079871.css",
+    "static/js/main.a732a11a.js"
   ]
 }
