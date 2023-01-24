@@ -6,6 +6,15 @@ import Mail from "./Dashboard/Mail";
 import Messages from "./Dashboard/Messages";
 import Settings from "./Dashboard/Settings";
 import Attendance from "./Dashboard/Attendance";
+import Courses from "./Dashboard/Courses";
+import Challenges from "./Dashboard/Challenges";
+import Clubs from "./Dashboard/Clubs";
+import Documents from "./Dashboard/Documents";
+import Forums from "./Dashboard/Forums";
+import Library from "./Dashboard/Library";
+import Meetings from "./Dashboard/Meetings";
+import Payments from "./Dashboard/Payments";
+import Shop from "./Dashboard/Shop";
 import logo2 from "./logo2.png";
 import { Route, Routes } from "react-router-dom";
 
@@ -26,6 +35,15 @@ function Header() {
             <Route path="/attendance" element={<Attendance />}></Route>
             <Route path="/settings" element={<Settings />}></Route>
             <Route path="/messages" element={<Messages />}></Route>
+            <Route path="/courses" element={<Courses />}></Route>
+            <Route path="/challenges" element={<Challenges />}></Route>
+            <Route path="/clubs" element={<Clubs />}></Route>
+            <Route path="/documents" element={<Documents />}></Route>
+            <Route path="/forums" element={<Forums />}></Route>
+            <Route path="/library" element={<Library />}></Route>
+            <Route path="/meetings" element={<Meetings />}></Route>
+            <Route path="/payments" element={<Payments />}></Route>
+            <Route path="/shop" element={<Shop />}></Route>
           </Routes>
         </div>
       </div>

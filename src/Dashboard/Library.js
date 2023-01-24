@@ -4,11 +4,11 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
-function Myprofile() {
+function Library() {
   return (
     <div>
       <div className="lvl1">
-        <div className="lvl1txt">My profile</div>
+        <div className="lvl1txt">Library</div>
         <div className="lvl1cont">
           <div className="iconset">
             <NotificationsOutlinedIcon fontSize="inherit" />
@@ -26,4 +26,4 @@ function Myprofile() {
   );
 }
 
-export default Myprofile;
+export default Library;

@@ -15,6 +15,7 @@ import dimg6 from "../images/dimg6.png";
 import dimg7 from "../images/dimg7.png";
 import dimg8 from "../images/dimg8.png";
 import dimg9 from "../images/dimg9.png";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
@@ -46,106 +47,146 @@ function Dashboard() {
           <img src={banner} alt="banner" id="banner" />
         </div>
         <div className="lvl5">
-          <Dashcard
-            title="courses"
-            dimg={dimg1}
-            info={
-              <>
-                Course Modules
-                <br />
-                Lecture Materials
-                <br />
-                Lecture Recordings
-              </>
-            }
-          />
-          <Dashcard
-            title="Documents"
-            dimg={dimg2}
-            info={
-              <>
-                Organize notes
-                <br />
-                Create / Edit docs
-                <br />
-                Create / Edit sheets
-              </>
-            }
-          />
-          <Dashcard
-            title="Library"
-            dimg={dimg3}
-            info={
-              <>
-                Past papers
-                <br />
-                Model papers
-                <br />
-                Online books
-                <br />
-                Research papers
-              </>
-            }
-          />
-          <Dashcard
-            title="Meetings"
-            dimg={dimg4}
-            info={
-              <>
-                Create meetings
-                <br />
-                Join meeting
-                <br />
-                Schedule meeting
-              </>
-            }
-          />
-          <Dashcard
-            title="Payments"
-            dimg={dimg5}
-            info={
-              <>
-                Semester payments
-                <br />
-                Repeat payments
-              </>
-            }
-          />
-          <Dashcard
-            title="Clubs"
-            dimg={dimg6}
-            info={
-              <>
-                Club activities
-                <br />
-                Announcements
-              </>
-            }
-          />
-          <Dashcard
-            title="Forums"
-            dimg={dimg7}
-            info={
-              <>
-                Social platform
-                <br />
-                Knowledge sharing
-              </>
-            }
-          />
-          <Dashcard
-            title="Challenges"
-            dimg={dimg8}
-            info={
-              <>
-                Quizes
-                <br />
-                Activities
-                <br />
-                Games
-              </>
-            }
-          />
+          <Link
+            to="/courses"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="courses"
+              dimg={dimg1}
+              info={
+                <>
+                  Course Modules
+                  <br />
+                  Lecture Materials
+                  <br />
+                  Lecture Recordings
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/documents"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Documents"
+              dimg={dimg2}
+              info={
+                <>
+                  Organize notes
+                  <br />
+                  Create / Edit docs
+                  <br />
+                  Create / Edit sheets
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/library"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Library"
+              dimg={dimg3}
+              info={
+                <>
+                  Past papers
+                  <br />
+                  Model papers
+                  <br />
+                  Online books
+                  <br />
+                  Research papers
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/meetings"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Meetings"
+              dimg={dimg4}
+              info={
+                <>
+                  Create meetings
+                  <br />
+                  Join meeting
+                  <br />
+                  Schedule meeting
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/payments"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Payments"
+              dimg={dimg5}
+              info={
+                <>
+                  Semester payments
+                  <br />
+                  Repeat payments
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/clubs"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Clubs"
+              dimg={dimg6}
+              info={
+                <>
+                  Club activities
+                  <br />
+                  Announcements
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/forums"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Forums"
+              dimg={dimg7}
+              info={
+                <>
+                  Social platform
+                  <br />
+                  Knowledge sharing
+                </>
+              }
+            />
+          </Link>
+          <Link
+            to="/challenges"
+            style={{ textDecoration: "none", color: "#848383" }}
+          >
+            <Dashcard
+              title="Challenges"
+              dimg={dimg8}
+              info={
+                <>
+                  Quizes
+                  <br />
+                  Activities
+                  <br />
+                  Games
+                </>
+              }
+            />
+          </Link>
           <Dashcard
             title="Exams"
             dimg={dimg9}
@@ -157,8 +198,20 @@ function Dashboard() {
               </>
             }
           />
-          <Dashcard title="courses" />
-          <Dashcard title="courses" />
+          <Link to="/shop" style={{ textDecoration: "none", color: "#848383" }}>
+            <Dashcard
+              title="Shop"
+              dimg={dimg9}
+              info={
+                <>
+                  Tshirts
+                  <br />
+                  Bands
+                </>
+              }
+            />
+          </Link>
+          <Dashcard title="courses" dimg={dimg9} />
         </div>
       </div>
     </div>
