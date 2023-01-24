@@ -3,6 +3,7 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import Texteditor from "./Texteditor";
 
 function Documents() {
   return (
@@ -21,7 +22,9 @@ function Documents() {
           </span>
         </div>
       </div>
-      <div className="lvl2">asd</div>
+      <div className="lvl2">
+        <Texteditor />
+      </div>
     </div>
   );
 }
