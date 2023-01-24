@@ -11,15 +11,22 @@ import TaskAltOutlinedIcon from "@mui/icons-material/TaskAltOutlined";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
 import { Link } from "react-router-dom";
+import Sidebarlrow from "./Sidebarlrow";
 
 function Sidebarl() {
+  function sada(str) {
+    if (window.location.pathname === str) {
+      return 1;
+    } else {
+      return 0;
+    }
+  }
   return (
     <div className="sidebarl">
       <div class="c1">
         <div class="c5">
           <img src={logo} alt="Logo" id="logo" />
         </div>
-        <div>aa</div>
       </div>
       <div class="c7">
         <div className="conrc">
@@ -36,80 +43,61 @@ function Sidebarl() {
                 to="/dashboard"
                 style={{ textDecoration: "none", color: "#848383" }}
               >
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <DashboardIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">Dashboard</span>
-                  </div>
-                  <div id="selected"></div>
-                </li>
+                <Sidebarlrow
+                  selected={sada("/dashboard")}
+                  icon={<DashboardIcon fontSize="inherit" />}
+                  txt={"Dashboard"}
+                />
               </Link>
               <Link
                 to="/myprofile"
                 style={{ textDecoration: "none", color: "#848383" }}
               >
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <PersonOutlineOutlinedIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">My Profile</span>
-                  </div>
-                </li>
+                <Sidebarlrow
+                  selected={sada("/myprofile")}
+                  icon={<PersonOutlineOutlinedIcon fontSize="inherit" />}
+                  txt="My Profile"
+                />
               </Link>
               <Link
                 to="/messages"
                 style={{ textDecoration: "none", color: "#848383" }}
               >
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <SendOutlinedIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">Messages</span>
-                  </div>
-                </li>
+                <Sidebarlrow
+                  selected={sada("/messages")}
+                  icon={<SendOutlinedIcon fontSize="inherit" />}
+                  txt="Messages"
+                />
               </Link>
               <Link
                 to="/mail"
                 style={{ textDecoration: "none", color: "#848383" }}
               >
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <EmailOutlinedIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">Mail</span>
-                  </div>
-                </li>
+                <Sidebarlrow
+                  selected={sada("/mail")}
+                  icon={<EmailOutlinedIcon fontSize="inherit" />}
+                  txt="Mail"
+                />
               </Link>
               <Link
                 to="/attendance"
                 style={{ textDecoration: "none", color: "#848383" }}
               >
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <TaskAltOutlinedIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">Attendence</span>
-                  </div>
-                </li>
+                <Sidebarlrow
+                  selected={sada("/attendance")}
+                  icon={<TaskAltOutlinedIcon fontSize="inherit" />}
+                  txt="Attendence"
+                />
               </Link>
               <Link
                 to="/settings"
                 style={{ textDecoration: "none", color: "#848383" }}
               >
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <SettingsOutlinedIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">Settings</span>
-                  </div>
-                </li>
+                <Sidebarlrow
+                  selected={sada("/settings")}
+                  icon={<SettingsOutlinedIcon fontSize="inherit" />}
+                  txt="Settings"
+                />
               </Link>
               <Link to="/" style={{ textDecoration: "none", color: "#848383" }}>
                 <li>

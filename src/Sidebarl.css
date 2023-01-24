@@ -81,10 +81,10 @@
   justify-content: space-between;
 }
 
-#selected {
-  background-color: blue;
+.selected {
   height: 1.5vw;
   width: 0.5vw;
+  background-color: blue;
 }
 
 #dashlist li:hover {
