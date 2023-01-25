@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cloud-project-lms/static/css/main.f5e3a881.css",
-    "main.js": "/cloud-project-lms/static/js/main.7deef80d.js",
+    "main.css": "/cloud-project-lms/static/css/main.7dcf2f40.css",
+    "main.js": "/cloud-project-lms/static/js/main.7ec42d85.js",
     "static/js/787.129942d8.chunk.js": "/cloud-project-lms/static/js/787.129942d8.chunk.js",
     "static/media/banner.png": "/cloud-project-lms/static/media/banner.ed78d90007ce8e7113b1.png",
     "static/media/chalb.png": "/cloud-project-lms/static/media/chalb.b8742d5ce3529354d042.png",
@@ -12,10 +12,17 @@
     "static/media/rrec.png": "/cloud-project-lms/static/media/rrec.a6de2a32211c2bca67d5.png",
     "static/media/imgrbc.png": "/cloud-project-lms/static/media/imgrbc.7140dc8be6bf9488e273.png",
     "static/media/logo.png": "/cloud-project-lms/static/media/logo.7eac318b8eecd79af83f.png",
+    "static/media/b4.png": "/cloud-project-lms/static/media/b4.8c4a112c2b1328d243c3.png",
     "static/media/logo2.png": "/cloud-project-lms/static/media/logo2.44d69ccc8a418d546161.png",
     "static/media/dul.jpg": "/cloud-project-lms/static/media/dul.bb79c1567b01073d1b9c.jpg",
     "static/media/tshirt.png": "/cloud-project-lms/static/media/tshirt.2ab5d2a7f4c268e68111.png",
+    "static/media/b1.png": "/cloud-project-lms/static/media/b1.9d676760dfc168929769.png",
+    "static/media/banner2.png": "/cloud-project-lms/static/media/banner2.a8994d200f1bce3b080f.png",
+    "static/media/b5.png": "/cloud-project-lms/static/media/b5.ca7e90176ba40b550b36.png",
+    "static/media/b3.png": "/cloud-project-lms/static/media/b3.366e85541af8ee6e7e17.png",
+    "static/media/b6.png": "/cloud-project-lms/static/media/b6.a7b4c5f39d1dd26dd09b.png",
     "static/media/crec.png": "/cloud-project-lms/static/media/crec.ce68070a0b2daf251f45.png",
+    "static/media/b2.png": "/cloud-project-lms/static/media/b2.2a5450ffdf487611614c.png",
     "static/media/dimg3.png": "/cloud-project-lms/static/media/dimg3.95b930fb09b0bca1d3c4.png",
     "static/media/dimg8.png": "/cloud-project-lms/static/media/dimg8.34c5243810a0cc352175.png",
     "static/media/dimg4.png": "/cloud-project-lms/static/media/dimg4.8425f830face5de25b85.png",
@@ -25,12 +32,12 @@
     "static/media/dimg1.png": "/cloud-project-lms/static/media/dimg1.fe882b7d413c44faa567.png",
     "static/media/dimg6.png": "/cloud-project-lms/static/media/dimg6.c4100cb984c8b70dd539.png",
     "index.html": "/cloud-project-lms/index.html",
-    "main.f5e3a881.css.map": "/cloud-project-lms/static/css/main.f5e3a881.css.map",
-    "main.7deef80d.js.map": "/cloud-project-lms/static/js/main.7deef80d.js.map",
+    "main.7dcf2f40.css.map": "/cloud-project-lms/static/css/main.7dcf2f40.css.map",
+    "main.7ec42d85.js.map": "/cloud-project-lms/static/js/main.7ec42d85.js.map",
     "787.129942d8.chunk.js.map": "/cloud-project-lms/static/js/787.129942d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5e3a881.css",
-    "static/js/main.7deef80d.js"
+    "static/css/main.7dcf2f40.css",
+    "static/js/main.7ec42d85.js"
   ]
 }
