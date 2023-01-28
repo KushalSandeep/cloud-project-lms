@@ -2,3 +2,116 @@
   display: flex;
   flex-direction: row;
 }
+
+.login_back {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://i.imgur.com/Z9XzLdz.png") center no-repeat;
+  background-position-y: 90%;
+  background-size: 100%;
+}
+.loginimg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-end;
+}
+.loginright {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(225, 242, 255, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginsetup {
+  width: 85%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.loginlogo {
+  width: 38%;
+}
+#logintxt1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  color: #0085ff;
+  font-size: 2.3vw;
+}
+#logintxt2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  color: #686868;
+  font-size: 2.7vw;
+  text-transform: uppercase;
+}
+.loginsearch {
+  font-family: "Inter";
+  width: 88%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-size: 1vw;
+  font-weight: 500;
+}
+.loginsearchcon {
+  border-bottom: 0.2vw solid rgb(0, 0, 0);
+  width: 50%;
+  height: 8%;
+  margin-bottom: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #686868;
+  font-size: 1.3vw;
+}
+.loginbt {
+  width: 50%;
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#logingoogle {
+  width: 60%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0.5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+}
+#loginsubmit {
+  width: 30%;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0.5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+}
+#logingoogle:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#loginsubmit:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

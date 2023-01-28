@@ -12,8 +12,12 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
 import { Link } from "react-router-dom";
 import Sidebarlrow from "./Sidebarlrow";
+import { auth } from "./firebase";
+import { useSelector } from "react-redux";
+import { selectUser } from "./app/userSlice";
 
 function Sidebarl() {
+  const user = useSelector(selectUser);
   function sada(str) {
     if (window.location.pathname === str) {
       return 1;
@@ -23,19 +27,19 @@ function Sidebarl() {
   }
   return (
     <div className="sidebarl">
-      <div class="c1">
-        <div class="c5">
+      <div className="c1">
+        <div className="c5">
           <img src={logo} alt="Logo" id="logo" />
         </div>
       </div>
-      <div class="c7">
+      <div className="c7">
         <div className="conrc">
           <div className="imgg">
             <img src={dul} alt="Dul" id="dul" />
             <div id="gdot">.</div>
             <div className="dult">Dulaj Perera</div>
 
-            <div className="dult">dulajp@sltc.ac.lk</div>
+            <div className="dult">{user.email}</div>
           </div>
           <div className="dash">
             <ul id="dashlist">
@@ -99,16 +103,15 @@ function Sidebarl() {
                   txt="Settings"
                 />
               </Link>
-              <Link to="/" style={{ textDecoration: "none", color: "#848383" }}>
-                <li>
-                  <div className="dtt">
-                    <span className="ddt">
-                      <LoginOutlinedIcon fontSize="inherit" />
-                    </span>
-                    <span className="dt">Log out</span>
-                  </div>
-                </li>
-              </Link>
+
+              <li>
+                <div className="dtt" onClick={() => auth.signOut()}>
+                  <span className="ddt">
+                    <LoginOutlinedIcon fontSize="inherit" />
+                  </span>
+                  <span className="dt">Log out</span>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

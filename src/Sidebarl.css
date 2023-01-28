@@ -86,7 +86,12 @@
   width: 0.5vw;
   background-color: blue;
 }
-
+.dtt {
+  color: #686868;
+}
+.dttcon .selected {
+  transform: scale(1.01);
+}
 #dashlist li:hover {
   background-color: aliceblue;
   cursor: pointer;
