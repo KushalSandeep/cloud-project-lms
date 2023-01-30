@@ -27,6 +27,7 @@ function Courseconcard({ name, iid, cid }) {
       .collection("content")
       .doc(iid)
       .collection("section")
+      .orderBy("id")
       .onSnapshot((snapshot) =>
         setSections(
           snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() }))
@@ -50,6 +51,24 @@ function Courseconcard({ name, iid, cid }) {
   };
 
   const createRow = () => {
+    let newDate = new Date();
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
+    let hour = newDate.getHours();
+    let min = newDate.getMinutes();
+    let x = "";
+    let y = "";
+    if (hour >= 12) {
+      x = "P.M";
+    } else {
+      x = "A.M";
+    }
+    if (min < 10) {
+      y = "0" + min;
+    } else {
+      y = min;
+    }
     const idd = conid + 1;
     db.collection("courses")
       .doc(cid)
@@ -65,8 +84,8 @@ function Courseconcard({ name, iid, cid }) {
       .add({
         id: conid,
         name: "defaut name",
-        date: "10.10.2010",
-        time: "12.12 P.M",
+        date: date + "." + month + "." + year,
+        time: hour + "." + y + " " + x,
       });
   };
 

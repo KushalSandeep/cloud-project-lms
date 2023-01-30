@@ -10,7 +10,7 @@ function Addcon({ id, name, date, time }) {
         {name}
       </div>
       <div className="Addcon12">
-        {time} | {date}
+        {date} |{" " + time}
       </div>
       <div className="Addcon13">
         <span id="addicn0">

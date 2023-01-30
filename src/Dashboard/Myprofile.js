@@ -53,7 +53,16 @@ function Myprofile() {
                   <div>dulajperera67@gmail.com</div>
                 </div>
               </div>
-              <div className="prof212"></div>
+              <div className="prof212">
+                <div className="prof2111">
+                  <div>Degree programme</div>
+                  <div>Batch</div>
+                </div>
+                <div className="prof2112">
+                  <div>Bsc(hons) cyber security</div>
+                  <div>2024</div>
+                </div>
+              </div>
             </div>
             <div className="prof22">
               <div className="prof221"></div>

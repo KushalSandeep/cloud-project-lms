@@ -21,7 +21,7 @@ function Mail() {
           </span>
         </div>
       </div>
-      <div className="lvl2">asd</div>
+      <div className="lvl2"></div>
     </div>
   );
 }

@@ -44,6 +44,7 @@ function Coursecon() {
       db.collection("courses").doc(courseId).collection("content").add({
         id: tab,
         name: rowName,
+        tab: 0,
       });
     }
   };

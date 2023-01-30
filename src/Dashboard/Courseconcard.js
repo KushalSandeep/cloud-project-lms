@@ -11,6 +11,7 @@ function Courseconcard({ name, iid, cid }) {
       .collection("content")
       .doc(iid)
       .collection("section")
+      .orderBy("id")
       .onSnapshot((snapshot) =>
         setSections(
           snapshot.docs.map((doc) => ({ id: doc.id, data: doc.data() }))
@@ -34,7 +35,6 @@ function Courseconcard({ name, iid, cid }) {
             iid={iid}
           />
         ))}
-        <Addcon />
       </div>
     </div>
   );

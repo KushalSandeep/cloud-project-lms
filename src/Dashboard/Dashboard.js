@@ -198,19 +198,19 @@ function Dashboard() {
               </>
             }
           />
-          <Link to="/shop" style={{ textDecoration: "none", color: "#848383" }}>
-            <Dashcard
-              title="Shop"
-              dimg={dimg9}
-              info={
-                <>
-                  Tshirts
-                  <br />
-                  Bands
-                </>
-              }
-            />
-          </Link>
+
+          <Dashcard
+            title="Shop"
+            dimg={dimg9}
+            info={
+              <>
+                Tshirts
+                <br />
+                Bands
+              </>
+            }
+          />
+
           <Dashcard title="CV" dimg={dimg9} />
           <Dashcard title="Progress" dimg={dimg9} />
         </div>

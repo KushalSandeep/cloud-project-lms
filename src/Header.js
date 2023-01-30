@@ -15,7 +15,6 @@ import Forums from "./Dashboard/Forums";
 import Library from "./Dashboard/Library";
 import Meetings from "./Dashboard/Meetings";
 import Payments from "./Dashboard/Payments";
-import Shop from "./Dashboard/Shop";
 import logo2 from "./logo2.png";
 import { Route, Routes } from "react-router-dom";
 
@@ -45,7 +44,6 @@ function Header() {
             <Route path="/library" element={<Library />}></Route>
             <Route path="/meetings" element={<Meetings />}></Route>
             <Route path="/payments" element={<Payments />}></Route>
-            <Route path="/shop" element={<Shop />}></Route>
           </Routes>
         </div>
       </div>

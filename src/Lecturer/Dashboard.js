@@ -3,7 +3,7 @@ import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-import banner from "../images/banner5.jfif";
+import banner from "../images/banner.png";
 import Dashcard from "./Dashcard.js";
 import dimg1 from "../images/dimg1.png";
 import dimg2 from "../images/dimg2.png";
