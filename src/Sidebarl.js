@@ -1,7 +1,6 @@
 import "./Sidebarl.css";
 import React from "react";
 import logo from "./logo.png";
-import dul from "./images/dul.jpg";
 import imgrbc from "./images/imgrbc.png";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
@@ -16,7 +15,7 @@ import { auth } from "./firebase";
 import { useSelector } from "react-redux";
 import { selectUser } from "./app/userSlice";
 
-function Sidebarl() {
+function Sidebarl({ dul, nam }) {
   const user = useSelector(selectUser);
   function sada(str) {
     if (window.location.pathname === str) {
@@ -37,7 +36,7 @@ function Sidebarl() {
           <div className="imgg">
             <img src={dul} alt="Dul" id="dul" />
             <div id="gdot">.</div>
-            <div className="dult">Dulaj Perera</div>
+            <div className="dult">{nam}</div>
 
             <div className="dult">{user.email}</div>
           </div>

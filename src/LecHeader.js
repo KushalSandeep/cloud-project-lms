@@ -1,13 +1,13 @@
 import "./Header.css";
 import React from "react";
 import Myprofile from "./Dashboard/Myprofile";
-import Dashboard from "./Dashboard/Dashboard";
+import Dashboard from "./Lecturer/Dashboard";
 import Mail from "./Dashboard/Mail";
 import Messages from "./Dashboard/Messages";
 import Settings from "./Dashboard/Settings";
 import Attendance from "./Dashboard/Attendance";
-import Courses from "./Dashboard/Courses";
-import Coursecon from "./Dashboard/Coursecon";
+import Courses from "./Lecturer/Courses";
+import Coursecon from "./Lecturer/Coursecon";
 import Challenges from "./Dashboard/Challenges";
 import Clubs from "./Dashboard/Clubs";
 import Documents from "./Dashboard/Documents";
@@ -19,7 +19,7 @@ import Shop from "./Dashboard/Shop";
 import logo2 from "./logo2.png";
 import { Route, Routes } from "react-router-dom";
 
-function Header() {
+function LecHeader() {
   return (
     <div className="header">
       <div className="c2">
@@ -53,4 +53,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default LecHeader;

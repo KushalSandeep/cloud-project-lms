@@ -2,20 +2,30 @@ import React, { useRef } from "react";
 import logo from "./images/logoc.png";
 import StopCircleOutlinedIcon from "@mui/icons-material/StopCircleOutlined";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
-import { auth } from "./firebase";
+import { auth, provider } from "./firebase";
 
 function Login() {
   const userRef = useRef(null);
   const passwordRef = useRef(null);
 
-  const signIn = (e) => {
+  const signIn = () => {
     auth
       .signInWithEmailAndPassword(
         userRef.current.value,
         passwordRef.current.value
       )
       .then((authUser) => {
-        console.log(authUser);
+        /*console.log(authUser);*/
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+  };
+  const signInGoogle = () => {
+    auth
+      .signInWithPopup(provider)
+      .then((authUser) => {
+        /*console.log(authUser);*/
       })
       .catch((error) => {
         alert(error.message);
@@ -47,7 +57,9 @@ function Login() {
               />
             </div>
             <div className="loginbt">
-              <div id="logingoogle">Sign in with Google</div>
+              <div id="logingoogle" onClick={signInGoogle}>
+                Sign in with Google
+              </div>
               <div id="loginsubmit" onClick={signIn}>
                 Log in
               </div>
