@@ -11,4 +11,4 @@ Lecturer account:-<br/>
 email : lecturer@gmail.com<br/>
 pass  : 123456
 
-TO use gmail authentication i need to add the respective mails to database
+To use google authentication i need to add the respective mails to database. only the autherized mails will get access
