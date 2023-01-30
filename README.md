@@ -1,7 +1,7 @@
 # Site link:
-https://KushalSandeep.github.io/cloud-project-lms/dashboard<br/>
+https://KushalSandeep.github.io/cloud-project-lms/<br/>
 or<br/>
-https://cloud-project-lms.web.app/dashboard
+https://cloud-project-lms.web.app
 
 use following credentials to sign in:
 
